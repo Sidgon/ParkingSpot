@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="ch.hesso.parkingspot.android.IndexActivity">
+
+    <EditText
+        android:id="@+id/loginUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/username"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/loginUsername"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/loginPassword"
+        android:layout_marginTop="16dp">
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendRegisterButton"
+        android:text="@string/register"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:onClick="loginButtonPushed"
+        android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ParkingSpot</string>
+    <string name="title_activity_map">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="update">Update</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="map">Map</string>
+    <string name="change_delete">Change/Delete</string>
+    <string name="logout">Logout</string>
+    <string name="price_day">Price Day</string>
+    <string name="plz_city">PLZ City</string>
+    <string name="save">Save</string>
+    <string name="provider">Provider</string>
+    <string name="rent">Rent</string>
+    <string name="delete">Delete</string>
+
+    <string name="newparkingspotmenu">New Parking Spot</string>
+    <string name="changepakringspotmenu">My Parking Spots</string>
+    <string name="reservationsmenu">MyReservations</string>
+    <string name="info">Info</string>
+
+    <string name="infocreation"> </string>
+    <string name="infousing">General instructions:
+    After Login you have the opportunity to manage your parking spots and User data.
+    If you want to add a new parking spot: open the map and choose \"New Parking Spot\" .
+    If you want to change your parking spot: open the map and choose \"MyParking Spots\".
+    If you want to rent a parking spot: open the map and click on a marker. A new window will open
+    where you will see more info and where you are able to choose whether to rent or not.
+    If you want to cancel the reservation open the map and choos \"MyReservations\".</string>
+    <string name="copyright"> </string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <string-array name="pref_color_marker_entries">
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+    </string-array>
+
+    <string-array name="pref_color_marker_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_color_marker">Color of Parkingspot</string>
+
+
+    <string-array name="pref_color_alpha_entries">
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="pref_color_alpha_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_color_alpha">Alpha of Marker</string>
+
+
+
+
+
+</resources>

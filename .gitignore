@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.idea/
+backend/build/tmp/appengineEndpointsExpandClientLibs/parkingspotApi-v1-java.zip-unzipped/parkingspotApi/src/main/java/com/example/lavdrim/myapplication/backend/parkingspotApi/model/CollectionResponseParkingspot.java
+backend/build/tmp/appengineEndpointsExpandClientLibs/reservationApi-v1-java.zip-unzipped/reservationApi/src/main/java/com/example/lavdrim/myapplication/backend/reservationApi/ReservationApiRequestInitializer.java
+backend/build/tmp/appengineEndpointsExpandClientLibs/reservationApi-v1-java.zip-unzipped/reservationApi/src/main/java/com/example/lavdrim/myapplication/backend/reservationApi/model/CollectionResponseReservation.java
+backend/build/tmp/appengineEndpointsExpandClientLibs/parkingspotApi-v1-java.zip-unzipped/parkingspotApi/src/main/java/com/example/lavdrim/myapplication/backend/parkingspotApi/ParkingspotApiRequestInitializer.java

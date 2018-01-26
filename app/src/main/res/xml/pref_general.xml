@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_color_marker_entries"
+        android:entryValues="@array/pref_color_marker_values"
+        android:key="color_marker"
+        android:title="@string/pref_color_marker" />
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_color_alpha_entries"
+        android:entryValues="@array/pref_color_alpha_values"
+        android:key="color_alpha"
+        android:title="@string/pref_color_alpha" />
+
+</PreferenceScreen>

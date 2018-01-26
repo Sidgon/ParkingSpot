@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/carImage"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_parking" />
+
+    <TextView
+        android:id="@+id/parkingAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginStart="11dp"
+        android:layout_alignBaseline="@+id/btnInfo"
+        android:layout_alignBottom="@+id/btnInfo"
+        android:layout_toEndOf="@+id/carImage" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/carImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/delete" /><![CDATA[
+
+    android:layout_alignParentStart="true/>
+]]>
+</RelativeLayout>
